@@ -73,7 +73,7 @@ a{
     justify-content: start;
     align-items: center;
 }
-.title:hover{
+.title a:hover{
     cursor: pointer;
     text-decoration: underline;
 }
