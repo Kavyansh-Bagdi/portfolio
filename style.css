@@ -12,7 +12,9 @@
     --bgcolor: white;
     --ulcolor: black;
     --bordercolor: rgba(0, 0, 0, 0.5);
+    --svg: black;
 }
+
 body{
     color: var(--textcolor);
     background-color: var(--bgcolor);
@@ -111,4 +113,7 @@ a{
     color: royalblue;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
+}
+path{
+    fill: var(--svg);
 }

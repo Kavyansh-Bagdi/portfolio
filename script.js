@@ -6,6 +6,7 @@ function changetheme() {
         document.documentElement.style.setProperty('--bgcolor', 'hsl(0, 0%, 9%)');
         document.documentElement.style.setProperty('--ulcolor', 'hsl(0, 0%, 50%)');
         document.documentElement.style.setProperty('--bordercolor', 'rgba(255,255,255,0.5)');
+        document.documentElement.style.setProperty('--svg', 'white');
         flag = 1;
     }
     else {
@@ -14,6 +15,7 @@ function changetheme() {
         document.documentElement.style.setProperty('--bgcolor', 'white');
         document.documentElement.style.setProperty('--ulcolor', 'hsl(0, 0%, 0%)');
         document.documentElement.style.setProperty('--bordercolor', 'rgba(0,0,0,0.5)');
+        document.documentElement.style.setProperty('--svg', 'black');
 
         flag = 0;
     }
