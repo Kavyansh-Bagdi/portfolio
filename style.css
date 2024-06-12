@@ -110,6 +110,31 @@ a{
     font-size: 85%;
 }
 
+#contactbox{
+    display: grid;
+    padding-inline: 10vw;
+    gap: 0.5vw;
+}
+#contactbox input,#contactbox textarea{
+    color: var(--textcolor);
+    border-radius: 0.5rem;
+    border: 1px solid var(--bordercolor);
+    outline: none;
+    background-color: var(--bgcolor);
+    resize: none;
+    padding: 0.7em;
+}
+#contactbox label{
+    margin-block-start: 0.5em;
+}
+#contactbox :first-child{
+    margin-block-start: -1rem;
+}
+#contactbox textarea{
+    min-height: 20vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 
 
 #contact{
