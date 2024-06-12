@@ -31,6 +31,7 @@ svg{
 }
 
 #top{
+    margin-block-start: 5vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,7 +44,7 @@ svg{
 }
 li{
     list-style: none;
-    margin: 1vw;
+    margin: 2vw;
 }
 a{
     text-decoration: none;
@@ -57,10 +58,24 @@ a{
 }
 
 
-#aboutme{
+#aboutme,#techstack{
     font-size: 1.25rem;
     text-align: left;
     padding-inline: 10vw;
+}
+#techstack{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 1vw;
+    gap: 1vh;
+}
+#techstack span{
+    border-radius: 0.5em;
+    border: 1px solid var(--bordercolor);
+    color: var(--textcolor);
+    padding-inline: 0.5rem;
+    padding-block: 0.3rem;
 }
 
 #projects{
