@@ -65,10 +65,10 @@ a{
 }
 #techstack{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 5vh;
     row-gap: 1vw;
-    gap: 1vh;
 }
 #techstack span{
     border-radius: 0.5em;
@@ -76,6 +76,7 @@ a{
     color: var(--textcolor);
     padding-inline: 0.5rem;
     padding-block: 0.3rem;
+    margin-block-start: 0.3rem;
 }
 
 #projects{
@@ -109,13 +110,13 @@ a{
 .tags{
     font-size: 85%;
 }
-
-#contactbox{
+ 
+#contactbox form{
     display: grid;
     padding-inline: 10vw;
-    gap: 0.5vw;
+    gap: 1vh;
 }
-#contactbox input,#contactbox textarea{
+#contactbox form input,#contactbox form textarea{
     color: var(--textcolor);
     border-radius: 0.5rem;
     border: 1px solid var(--bordercolor);
@@ -124,16 +125,27 @@ a{
     resize: none;
     padding: 0.7em;
 }
-#contactbox label{
+#contactbox form formlabel{
     margin-block-start: 0.5em;
 }
-#contactbox :first-child{
+#contactbox form :first-child{
     margin-block-start: -1rem;
 }
-#contactbox textarea{
+#contactbox form textarea{
     min-height: 20vh;
     overflow-y: auto;
     overflow-x: hidden;
+}
+#contactbox form button{
+    background-color: royalblue;
+    color:white;
+    border: none;
+    padding: 0.7em;
+    border-radius: 0.5rem;
+    margin-block: 1vh;
+}
+#contactbox form button:hover{
+    cursor: pointer;
 }
 
 
