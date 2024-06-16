@@ -67,7 +67,7 @@ a{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 5vh;
+    gap: calc(max(1vh,1vw));
     row-gap: 1vw;
 }
 #techstack span{
