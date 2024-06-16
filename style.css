@@ -125,7 +125,7 @@ a{
     resize: none;
     padding: 0.7em;
 }
-#contactbox form formlabel{
+#contactbox form label{
     margin-block-start: 0.5em;
 }
 #contactbox form :first-child{
